@@ -1,6 +1,6 @@
 # Compose Utils
 
-A set of libraries to make Jetpack Compose easier to use
+Utilities to facilitate the development with jetpack compose, it is in its initial phase and for now it has a text component that can customize styles and a grid component to guide the development of screens
 
 ## Custom Text
 A component to customize the text style with different formats
