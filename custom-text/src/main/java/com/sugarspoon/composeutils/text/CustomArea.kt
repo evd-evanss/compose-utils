@@ -4,14 +4,13 @@ import androidx.compose.ui.text.TextStyle
 
 /**
  * CustomArea
- * Classe utilizada para formatar áreas específicas no texto
+ * Class used to format specific areas in the text
  *
- * @param previousTextReference: Texto de referencia anterior para quando houver palavras iguais na mesma frase
- * Ex: A rápida raposa marrom pula sobre o cachorro marrom preguiçoso.
- * Se quiser aplicar um estilo na segundo texto de marrom utilize a palavra cachorro como
- * referencia de texto anterior
- * @param text: Texto a ser aplicado o estilo
- * @param textStyle: Estilo de texto a ser aplicado
+ * @param previousTextReference: Previous reference text for when there are equal words in the same sentence
+ * Sample: The quick brown fox jumps over the lazy brown dog.
+ * If you want to style the second brown text use the word dog like previous text reference
+ * @param text: Text to be styled
+ * @param textStyle: Text style to be applied
  */
 data class CustomArea(
     val previousTextReference: String? = null,

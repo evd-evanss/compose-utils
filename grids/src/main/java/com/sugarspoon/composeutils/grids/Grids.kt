@@ -9,6 +9,19 @@ import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 
+/**
+ *
+ * Grids
+ *
+ * @param size Size to define the scale of the grid
+ *
+ * @param color Defines the color of the grids
+ *
+ * @param thickness Defines the line thickness of the grids
+ *
+ * @param enable Enables or disables the display of grids
+ *
+ */
 @Composable
 fun Grids(
     size: Dp = 8.dp,
