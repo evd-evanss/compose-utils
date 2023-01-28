@@ -57,3 +57,8 @@ fun Grids(
 | color     |       Defines the color of the grids       |
 | thickness |  Defines the line thickness of the grids   |
 | enable    |  Enables or disables the display of grids  |
+
+## Preview
+
+https://user-images.githubusercontent.com/26419059/215295934-6f88e8ca-ef7d-4fd4-b310-5e5d940c4dcb.mp4
+
