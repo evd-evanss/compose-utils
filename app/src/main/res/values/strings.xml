@@ -1,7 +1,8 @@
 <resources>
-    <string name="app_name">Compose Utils</string>
-    <string name="text_sample">O Jetpack Compose é um kit de ferramentas moderno recomendado pelo Android para criar IUs nativas.</string>
-    <string name="formatted_first">O Jetpack Compose</string>
-    <string name="formatted_second">kit de ferramentas</string>
-    <string name="formatted_third">Android</string>
+    <string name="app_name">Compose Utils ✍️</string>
+    <string name="text_sample">The quick brown fox jumps over the lazy brown dog.</string>
+    <string name="formatted_first">brown fox</string>
+    <string name="formatted_second">the lazy</string>
+    <string name="formatted_third">dog</string>
+    <string name="enable_grids_button_title">Enable/Disable Grids</string>
 </resources>

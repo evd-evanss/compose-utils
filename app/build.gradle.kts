@@ -54,6 +54,7 @@ android {
 
 dependencies {
     implementation(project(":custom-text"))
+    implementation(project(":grids"))
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar", "*.aar"))))
 

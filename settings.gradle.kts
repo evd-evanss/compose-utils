@@ -3,6 +3,8 @@ pluginManagement {
         gradlePluginPortal()
         google()
         mavenCentral()
+        mavenLocal()
+        maven { url = uri("https://jitpack.io") }
     }
 }
 
@@ -17,3 +19,4 @@ refreshVersions {
 rootProject.name = "Compose Utils"
 include(":app")
 include(":custom-text")
+include(":grids")

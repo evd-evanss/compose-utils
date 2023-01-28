@@ -8,4 +8,5 @@ plugins {
 dependencies {
     implementation(AndroidX.compose.ui.tooling)
     implementation(AndroidX.compose.foundation)
+    implementation(AndroidX.compose.material)
 }

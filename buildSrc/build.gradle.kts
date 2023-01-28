@@ -15,6 +15,10 @@ gradlePlugin {
         id = "ComposeLibraryPlugin"
         implementationClass = "com.sugarspoon.compose_utils.ComposeLibraryPlugin"
     }
+    plugins.register("PublishLibPlugin") {
+        id = "PublishLibPlugin"
+        implementationClass = "com.sugarspoon.compose_utils.PublishLibPlugin"
+    }
 }
 
 tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().configureEach {

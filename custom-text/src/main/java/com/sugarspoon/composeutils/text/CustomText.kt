@@ -10,13 +10,14 @@ import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.unit.sp
 
 @Composable
 fun CustomText(
     text: String,
     modifier: Modifier,
     customArea: List<CustomArea>,
-    textStyleDefault: TextStyle = TextStyle(),
+    textStyleDefault: TextStyle = TextStyle(fontSize = 16.sp),
     textColorDefault: Color = Color.Black,
     textAlign: TextAlign? = null
 ) {
