@@ -12,6 +12,24 @@ import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.sp
 
+/**
+ *
+ * CustomText
+ *
+ * @param text Defines text with default formatting
+ *
+ * @param modifier Responsible for general modifications to the component
+ *
+ * @param customArea List of areas that will be customized in the text. see:[CustomArea]
+ *
+ * @param textStyleDefault Default text style
+ *
+ * @param textColorDefault Default text color
+ *
+ * @param textAlign Defines how to align text horizontally. TextAlign controls how text
+ * aligns in the space it appears
+ *
+ */
 @Composable
 fun CustomText(
     text: String,
